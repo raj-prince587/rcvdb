@@ -1,0 +1,36 @@
+  body {
+    max-width: 980px;
+    margin: 2em auto;
+    font: normal 15px/1.5 Arial, sans-serif;
+    color: #353535;
+    overflow-y: scroll;
+  }
+
+.content { margin: 0 30px; }
+
+.field.buttons button {
+		margin-right: .5em;
+	  }
+
+	  #invalid {
+		display: none;
+		float: left;
+		width: 290px;
+		margin-left: 120px;
+		margin-top: .5em;
+		color: #CC2A18;
+		font-size: 130%;
+		font-weight: bold;
+	  }
+
+	  .idealforms.adaptive #invalid {
+		margin-left: 0 !important;
+	  }
+
+	  .idealforms.adaptive .field.buttons label {
+		height: 0;
+	  }
+
+#progressbar{z-index:1111;}	  
+#dialog-login, #progress-body{top:35% !important;}
+.login-link{background-color:#eee;padding:10px 20px;}
